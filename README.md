@@ -11,21 +11,24 @@ Bu proje, C# ve .NET kullanılarak geliştirilen basit bir Model Context Protoco
 ## 🛠️ Kurulum
 
 1. **Depoyu Klonlayın:**
+
    ```bash
-   git clone https://github.com/kullaniciadi/mcp-reverse-string-server.git
+   git clone https://github.com/kadirdundar/MCP.git
    cd mcp-reverse-string-server
    ```
 
-2. **Gerekli NuGet Paketlerini Yükleyin:**
-   Proje dizininde aşağıdaki komutu çalıştırın:
+2. **Gerekli NuGet Paketlerini Yükleyin:** Proje dizininde aşağıdaki komutu çalıştırın:
+
    ```bash
    dotnet restore
    ```
 
 3. **Projeyi Derleyin ve Çalıştırın:**
+
    ```bash
    dotnet run
    ```
+
    Sunucu, MCP istemcilerinden gelen istekleri dinlemeye başlayacaktır.
 
 ## ⚙️ Kullanım
@@ -48,6 +51,10 @@ Sunucu, aşağıdaki gibi bir yanıt döndürecektir:
   "result": "aynüD abahreM"
 }
 ```
+
+## 🤖 VSCode Copilot Entegrasyonu
+
+Sunucu çalıştırıldıktan sonra Visual Studio Code'da Copilot eklentisini açarak agent modunda modelle etkileşim kurabilirsiniz. İlgili soruyu sorduğunuzda Copilot, bu sunucuya erişim sağlamak için gerekli MCP isteklerini gönderecek ve sunucudaki yönergelere göre işlemi sürdürecektir.
 
 ## 📁 Proje Yapısı
 
